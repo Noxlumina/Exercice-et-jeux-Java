@@ -1,6 +1,6 @@
 package com.formation;
 
-import com.formation.erxercices.*;
+import com.formation.exercices.*;
 import com.formation.jeux.*;
 
 import java.util.ArrayList;
@@ -100,15 +100,21 @@ public class Main {
          * jeux4.pendu();
          */
         // jeux 5
-        /* Jeux5 jeux5= new Jeux5();
-           jeux5.rouletteRusse();*/
-//         jeux 6
-        /*Jeux6 jeux6 = new Jeux6();
-        jeux6.Caesar_Cipher_Encrypt();
-        jeux6.Caesar_Cipher_Decrypt();*/
+        /*
+         * Jeux5 jeux5= new Jeux5();
+         * jeux5.rouletteRusse();
+         */
+        // jeux 6
+        /*
+         * Jeux6 jeux6 = new Jeux6();
+         * jeux6.Caesar_Cipher_Encrypt();
+         * jeux6.Caesar_Cipher_Decrypt();
+         */
         // jeux7
-        /*Jeux7 jeux7 = new Jeux7();
-         jeux7.TICTACDOE();*/
+        /*
+         * Jeux7 jeux7 = new Jeux7();
+         * jeux7.TICTACDOE();
+         */
 
     }
 }
