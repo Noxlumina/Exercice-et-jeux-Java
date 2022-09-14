@@ -1,4 +1,4 @@
-package com.formation.erxercices;
+package com.formation.exercices;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,8 +17,7 @@ public class Exo12 {
         System.out.println(List);
         Integer proche = List.get(0);
 
-        for (Integer item : List
-        ) {
+        for (Integer item : List) {
             Integer temperature = item;
             if ((Math.abs(item) < Math.abs(proche)) || (Math.abs(item) == Math.abs(proche) && item < 0)) {
                 proche = item;

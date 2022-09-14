@@ -1,4 +1,4 @@
-package com.formation.erxercices;
+package com.formation.exercices;
 
 import java.util.Scanner;
 
@@ -7,7 +7,8 @@ public class Exo8 {
     }
 
     /**
-     * Méthode qui demande à un utilisateur un nombre puis qui construit visuellemnt un  escalier
+     * Méthode qui demande à un utilisateur un nombre puis qui construit visuellemnt
+     * un escalier
      */
     public void escalier() {
         String affichage = "";
@@ -16,7 +17,7 @@ public class Exo8 {
         Scanner inputReader = new Scanner(System.in);
         System.out.println("choisir un chiffre");
         Integer nbr = inputReader.nextInt();
-        for (int i = 0; i <= nbr ; i++) {
+        for (int i = 0; i <= nbr; i++) {
             affichage += "*";
             System.out.println(affichage);
         }

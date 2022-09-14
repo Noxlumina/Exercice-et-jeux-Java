@@ -1,4 +1,4 @@
-package com.formation.erxercices;
+package com.formation.exercices;
 
 import java.util.*;
 
@@ -14,7 +14,7 @@ public class Exo13 {
         System.out.println(List);
         Collections.sort(List);
         System.out.println(List);
-            }
+    }
 
     /**
      * Méthode qui réorganise une liste désordonnée dans l'ordre décroissant
@@ -25,5 +25,4 @@ public class Exo13 {
         Collections.sort(List, Collections.reverseOrder());
         System.out.println(List);
     }
-        }
-
+}

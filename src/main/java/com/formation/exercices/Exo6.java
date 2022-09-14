@@ -1,4 +1,4 @@
-package com.formation.erxercices;
+package com.formation.exercices;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,7 +10,8 @@ public class Exo6 {
     }
 
     /**
-     * Méthode qui simule une calculatrice pour les opération d'addition, de soustraction, de division et de multiplication
+     * Méthode qui simule une calculatrice pour les opération d'addition, de
+     * soustraction, de division et de multiplication
      */
     public void calculator() {
         String operator = " ";
@@ -28,10 +29,14 @@ public class Exo6 {
         double multiplication = valeur1 * valeur2;
         double division = valeur1 / valeur2;
         System.out.println(operator);
-        if (operator.equals("+")) System.out.println(valeur1 + "+ " + valeur2 +" =" + addition);
-        else if (operator.equals("-")) System.out.println(valeur1 + "- " + valeur2 + " =" + soustraction);
-        else if (operator.equals("*")) System.out.println(valeur1 + "* " + valeur2 +" =" + multiplication);
-        else if (operator.equals("/")) System.out.println(valeur1 + "/ " + valeur2 +" =" + division);
+        if (operator.equals("+"))
+            System.out.println(valeur1 + "+ " + valeur2 + " =" + addition);
+        else if (operator.equals("-"))
+            System.out.println(valeur1 + "- " + valeur2 + " =" + soustraction);
+        else if (operator.equals("*"))
+            System.out.println(valeur1 + "* " + valeur2 + " =" + multiplication);
+        else if (operator.equals("/"))
+            System.out.println(valeur1 + "/ " + valeur2 + " =" + division);
         else
             System.out.println("opération non reconnue");
     }

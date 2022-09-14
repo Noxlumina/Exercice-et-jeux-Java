@@ -1,4 +1,4 @@
-package com.formation.erxercices;
+package com.formation.exercices;
 
 import java.util.Scanner;
 
@@ -7,7 +7,8 @@ public class Exo10 {
     }
 
     /**
-     * Méthode qui construit une pyramide à partir d'un nombre demandé à un utilisateur
+     * Méthode qui construit une pyramide à partir d'un nombre demandé à un
+     * utilisateur
      */
     public void truePyramide() {
         String etoile = "";
@@ -24,7 +25,7 @@ public class Exo10 {
                 affichage = espace + etoile;
                 System.out.println(affichage);
             } else {
-//                etoile += " *";
+                // etoile += " *";
                 etoile += "**";
                 Integer entierMoins = espace.length() - 1;
                 espace = espace.substring(0, entierMoins);
