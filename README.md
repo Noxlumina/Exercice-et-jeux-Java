@@ -53,4 +53,42 @@ Ce programme va donner la température la plus proche de zéro suivant une liste
 ### Exo13 - Un peu de tri
 Ce programme va trier dans un ordre croissant une liste désordonnée de nombres.
 
+## Jeux :
+
+### Jeux1 - FIZZBUZZ
+Les règles du jeu FizzBuzz sont simples :
+
+Les joueurs comptent à partir de 1 en incrémentant de 1 à chaque tour.
+Si le nombre est divisible par 3, le joueur dit "Fizz" au lieu du nombre.
+Si le nombre est divisible par 5, le joueur dit "Buzz" au lieu du nombre.
+Si le nombre est à la fois divisible par 3 et par 5, le joueur dit "FizzBuzz".
+
+### Jeux2 - Justeprix
+Les règles du jeu du Juste Prix dans le contexte d'un programme informatique sont généralement les suivantes :
+
+Un nombre est généré aléatoirement.
+Le joueur doit deviner la valeur avec à la fin de chaque tour pour seule information 'plus grand' ou 'moins'.
+Si le joueur trouve le nombre en un certains nombres de tours il gagne.
+
+### Jeux3 - Roller Coaster
+Vous êtes ingénieur et on vous demande de calculer les profits que peut réaliser un Roller Coaster en une journée.
+▪Un groupe de visiteur ne veut pas être séparé pour un tour de Roller Coaster.
+▪Dès qu'il n'y a plus assez de places dans le manège pour le prochain groupe, il démarre.
+▪Quand un groupe de visiteur a déjà fait un tour de manège, il se remet dans la file d'attente.
+▪Chaque visiteur qui effectue un tour de manège dépense 1€
+
+### Jeux4 - Pendu
+non fait
+
+### Jeux5 - Roulette Russe
+Dans cette simulation inspirée du jeu de la roulette russe, deux participants s'affrontent en utilisant un pistolet contenant un barillet. La position de la balle dans le barillet est inconnue, ajoutant ainsi une touche d'intrigue au jeu. Il est important de souligner que contrairement à la version réelle, aucune conséquence fatale n'est impliquée dans notre contexte.
+
+Le programme informatique prend en charge le processus aléatoire de sélection d'une position dans le barillet pour les balles. Les participants peuvent vivre une expérience captivante tout en évitant tout risque réel.
+
+### Jeux6 - Le chiffrage de César
+Programme qui va chiffrer un message en fonction d'une clé de chiffrage
+
+### Jeux7 - Morpion
+Simulation du jeu du morpion entre deux joueurs. Chaque participant s'engage dans une compétition acharnée pour aligner consécutivement trois jetons sur un plateau de dimensions 3x3. Le jeu offre une expérience stratégique et passionnante, où les joueurs rivalisent pour former des lignes, des colonnes ou des diagonales avec leurs jetons. Faites preuve de tactique et d'anticipation pour remporter la partie !
+
 
